@@ -4,7 +4,7 @@
     <link rel="icon" href="logo.jpeg">
     <meta charset="UTF-8">
     <title>Barbearia Fernandes</title>
-    <link rel="stylesheet" href="lyout.css">
+    <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDfsOlY_oRr9_uFovKwYzuO_2xamaWXJfTA&s">
 </head>
 <body>
@@ -18,9 +18,34 @@
     </nav>
 </header>
 
-<div class="banner">
-    <h2>Tradição e estilo desde 2018</h2>
-</div>
+<section id="home" class="hero">
+
+    <div id="carousel" class="carousel">
+
+        <div class="carousel-slide active">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1" class="carousel-bg">
+            <div class="carousel-content">
+                <h1>Tradição e estilo desde 2018</h1>
+            </div>
+        </div>
+
+        <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a" class="carousel-bg">
+            <div class="carousel-content">
+                <h1>Tradição e estilo desde 2018</h1>
+            </div>
+        </div>
+        
+        <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033" class="carousel-bg">
+            <div class="carousel-content">
+                <h1>Tradição e estilo desde 2018</h1>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
 <br id="inicio"><br><br><br><br><br>
 <div>
     <p>Na nossa barbearia, <strong class="destaque">tradição e qualidade</strong> caminham lado a lado para oferecer a melhor experiência em cuidados pessoais. Trabalhamos com uma ampla variedade de serviços, incluindo corte de cabelo, barba, sobrancelha, hidratação, alisamento, luzes, platinado e limpeza de pele, sempre prezando pelo atendimento de <strong class="destaque">excelência e atenção</strong> aos detalhes.</p>
@@ -36,32 +61,32 @@
     <div class="servicos">
         <div class="card">
             <h3>Corte Degradê</h3>
-            <img src="degrade.jpg" class="img-card">
+            <img src="./public/degrade.jpg" class="img-card">
         </div>
 
         <div class="card">
             <h3>Barba Lenhador</h3>
-            <img src="barba.jpeg" class="img-card">
+            <img src="./public/barba.jpeg" class="img-card">
         </div>
 
         <div class="card">
             <h3>Platinado</h3>
-            <img src="platinado.jpg" class="img-card">
+            <img src="./public/platinado.jpg" class="img-card">
         </div>
 
         <div class="card">
             <h3>Protese Capilar</h3>
-            <img src="protese.jpeg" class="img-card">
+            <img src="./public/protese.jpeg" class="img-card">
         </div>
 
         <div class="card">
             <h3>Moicano</h3>
-            <img src="moica.jpeg" class="img-card">
+            <img src="./public/moica.jpeg" class="img-card">
         </div>
 
         <div class="card">
             <h3>Taper Fade</h3>
-            <img src="taper.jpeg" class="img-card">
+            <img src="./public/taper.jpeg" class="img-card">
         </div>
 
     </div>
@@ -71,22 +96,22 @@
     <div class="servicos">
         <div class="produtos">
             <h3>Pomada Efeito Seco</h3>
-            <img src="efeitoseco.jpeg" class="img-card">
+            <img src="./public/efeitoseco.jpeg" class="img-card">
         </div>
 
         <div class="produtos">
             <h3>Pomada Efeito Brilho</h3>
-            <img src="pomadaazul.jpeg" class="img-card">
+            <img src="./public/pomadaazul.jpeg" class="img-card">
         </div>
 
         <div class="produtos">
             <h3>Pomada Alta Fixação</h3>
-            <img src="pomadavermelha.jpeg" class="img-card">
+            <img src="./public/pomadavermelha.jpeg" class="img-card">
         </div>
 
         <div class="produtos">
             <h3>Minoxidil</h3>
-            <img src="mixol.jpeg" class="img-card">
+            <img src="./public/mixol.jpeg" class="img-card">
         </div>
     </div>
     </div>
@@ -101,11 +126,11 @@
             Agendamento de horário <a href="https://fernandesbarbearia.disko.com.br/apresentacao"> Clique aqui</a>
         </p>
         <p class="whats">
-            <img src="whatsapp.png" class="icon-whats">
-            Whatsapp (47) 98908-5829
+            <img src="./public/whatsapp.png" class="icon-whats">
+            <a href="https://wa.me/5547989085829?text=Olá!%20Quero%20agendar%20um%20horário" target="_blank">Whatsapp (47) 98908-5829</a>
         </p>
         <p class="whats">
-            <img src="insta.png" class="icon-whats">
+            <img src="./public/insta.png" class="icon-whats">
             <a href="https://www.instagram.com/barbeariafernandes_oficial/">Instagram</a>
         </p>
     </div>
@@ -116,5 +141,6 @@
     © Barbearia Fernandes Canoinhas
 </footer>
 
+<script src="./script.js"></script>
 </body>
 </html>
